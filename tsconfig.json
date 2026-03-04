@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./",
+        "rootDir": "./",
+        "module": "CommonJS",
+        "target": "ES2019",
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "an7h.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

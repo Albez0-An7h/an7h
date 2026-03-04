@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.js
+!aj.ts
+package-lock.json
+temp_aj.ts

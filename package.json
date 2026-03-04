@@ -1,0 +1,30 @@
+{
+  "name": "an7h",
+  "version": "1.0.0",
+  "description": "an7h — your personal developer toolkit CLI",
+  "main": "an7h.js",
+  "bin": {
+    "an7h": "./an7h.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x an7h.js",
+    "dev": "ts-node an7h.ts",
+    "start": "node an7h.js"
+  },
+  "keywords": [
+    "cli",
+    "developer",
+    "toolkit",
+    "an7h"
+  ],
+  "author": "Aashish Jha",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
